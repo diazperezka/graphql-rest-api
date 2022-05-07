@@ -1,0 +1,16 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": "3306",
+    "username": "root",
+    "password": "123",
+    "database": "prospa",
+    "synchronize": false,
+    "logging": true,
+    "entities": ["src/**/*.entity{.js,.ts}"],
+    "migrations": ["src/database/migrations/*{.js,.ts}"],
+    "cli": {
+        "migrationsDir": "src/database/migrations"
+    },
+    "extra": { "insecureAuth": true }
+}

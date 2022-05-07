@@ -1,0 +1,6 @@
+backend_autos/node_modules
+backend_autos/dist
+backend_graphql/node_modules
+backend_graphql/dist
+backend_usuarios/node_modules
+backend_usuarios/dist
